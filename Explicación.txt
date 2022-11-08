@@ -1,0 +1,20 @@
+(Hago esto en un block de notas por si acaso)
+    Buenas tardes a quien/es lea/n y revisen mi proyecto.
+Estuve muy indeciso en qué hacer y cómo hacerlo, puesto que me anoté al curso con la idea
+de finalizarlo e irme con, al menos, una idea de cómo se realizan los "Tower Defense",
+con la cámara isométrica, más específicamente como los que se podían editar y jugar en "Warcracraft 3".
+    Me topé con muchísimios problemas, trabajar solo sin nunca haber estado antes en programación fue todo un reto, debo decir,
+puesto que realizar este proyecto implican  cosas que no hemos visto, como por ej, el sistema de compra típico de estos juegos,
+es decir, el panel donde selecciono el objeto para comprar u otro para upgradear, por citar ejemplos.
+
+Intenté dejar una escena con una única torre creada a base de elementos simples 3d a modo de ejemplo y testeo de todo lo scripteable.
+La condición de derrota es que una X cantidad de enemigos (wave), llamados por el método Instantiate  lleguen del punto Start, al punto End,
+cada enemigo que haga todo el recorrido disminuirá en "1" las vidas totales del jugador, todo ese registro sale debuggeado por consola.
+Estoy teniendo problemas con la condición de victoria, sé cómo plantearla, más no coddearla.
+
+-nota al margen. 
+No estoy logrando agregar gameOjbects públicos al script "enemigos", me queda el espacio en blanco y no logro arrastrar nada ahí, no comprendo por qué
+Al script lo posee el prefab "enemy"
+
+
+
