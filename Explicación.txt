@@ -11,10 +11,16 @@ Intenté dejar una escena con una única torre creada a base de elementos simple
 La condición de derrota es que una X cantidad de enemigos (wave), llamados por el método Instantiate  lleguen del punto Start, al punto End,
 cada enemigo que haga todo el recorrido disminuirá en "1" las vidas totales del jugador, todo ese registro sale debuggeado por consola.
 Estoy teniendo problemas con la condición de victoria, sé cómo plantearla, más no coddearla.
+Al margen de eso, intenté aplicar lo que hemos visto en estas clases en el contexto de este tower defense.
 
 -nota al margen. 
 No estoy logrando agregar gameOjbects públicos al script "enemigos", me queda el espacio en blanco y no logro arrastrar nada ahí, no comprendo por qué
 Al script lo posee el prefab "enemy"
+-El modelo del mapa está copiado íntegro de este video
+ https://www.youtube.com/watch?v=beuoNuK2tbk
+pero sólo el mappeado y fue a modo de test, pues hasta no tener funcional las mecánicas no quise hacer una edición en cuanto a gráficos, modelos y demás.
+Subo, además, la primera versión sin mappeado copiado y un intento de "builder"
+
 
 
 
